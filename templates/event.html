@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Community Events Board</title>
+    </head>
+    <body>
+      <h1>I hope this works</h1>
+      <div class="event-list">
+        <ul>
+          {% for event in events %}
+            <li>{{ event.event }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </body>
+</html>
